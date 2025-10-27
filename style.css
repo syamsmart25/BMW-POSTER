@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Bmw.webp);
+    background-size: cover;
+
+}
+h1{
+    font-family: "bmwTypeNextWeb", "Arial", "Helvetica", "Roboto", sans-serif;
+    font-weight:800;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+.img-bmw{
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 15%;
+    border-radius: 10px;
+    
+}
+h2{
+    font-family: "Amarante", serif;
+    color: white;
+    align-items: center;
+}
+.content-pos{
+    align-content: center;
+   
+   
+}
+.content{
+     margin: 18% 420px 10px 90px;
+    background-color: rgba(0, 0, 0, 0.2);;
+    display: grid;
+    place-items: center;
+    color: #C5C7BC;
+  font-family: Arial, sans-serif;
+    border-radius: 5px;
+ 
+}
+
+.content:hover{
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+
+p{
+    margin:3% ;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}
+.discover-button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+ 
+}
+
+.discover-button:hover {
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px ;
+  
+}
