@@ -33,6 +33,7 @@ h2{
    
 }
 .content{
+    width: 60%;
      margin: 18% 420px 10px 90px;
     background-color: rgba(0, 0, 0, 0.2);;
     display: grid;
@@ -78,4 +79,5 @@ p{
   align-items: center;
   height: 400px ;
   
+
 }
